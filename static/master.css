@@ -1,0 +1,46 @@
+html,body
+{
+    margin: 0;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    background-color: #f6f6f6;
+}
+a,button,div,i,input,p,progress,span
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.container
+{
+    width: 68%;
+    margin: 7% auto 0;
+    background-color: #fff;
+    border-radius: 20px 20px 4px 4px;
+}
+input[name=search], input[type=submit]
+{
+    height: 27px;
+    outline: none;
+    color: #444;
+}
+input[name=search]
+{
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 20px 0 0 20px;
+    padding: 0 4px 0 8px;
+}
+input[type=submit]
+{
+    width: 20%;
+    float: right;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-radius: 0 20px 20px 0;
+}
+@media only screen and (min-width: 540px ) {
+    input[name=search], input[type=submit] {
+        height: 40px;
+        font-size: 20px;
+    }
+}
